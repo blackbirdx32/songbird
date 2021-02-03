@@ -1,0 +1,33 @@
+*{
+    background-color: black;
+    color:white;
+    border:0px;
+}
+
+section{
+    width:100%;
+    float:left;
+    align-items: center;
+    text-align: center;
+    display:flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    
+}
+
+.bloco img{
+   width:100%;
+}
+
+.bloco{
+    width:20%;
+    height: 250px;
+    align-items: center;
+    text-align: center;
+}
+
+.borda{
+    border: 1px solid white;
+    padding: 0px 15px;
+}
+

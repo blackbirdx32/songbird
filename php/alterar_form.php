@@ -15,11 +15,11 @@
                
                 while($row = mysqli_fetch_array($result)){
             ?>
-            <div class="bloco">
-                <img class="album" src="..\imagens\<?php echo $row['imagem'];?>">
+            <div class="blocoInfo">
+                <img class="imagem" src="..\imagens\<?php echo $row['imagem'];?>">
             </div>
 
-            <div class="bloco">
+            <div class="blocoInfo">
                 <form method="POST" action="alterar.php">
                     <input type="hidden" name="id" value="<?php echo $row['id'];?>">
                     <input type="text" name="nome" value="<?php echo $row['nome'];?>"><p>
@@ -28,7 +28,7 @@
                     <input type="text" name="imagem" value="<?php echo $row['imagem'];?>"><p>
                     Top : <input type="radio" name="top" value="1">1
 				    <input type="radio" name="top" value="2">2<p>   
-                    <button type="submit">Enviar</button>
+                    <button type="submit" class="borda">Enviar</button>
                 </form>
                 <a href="../index.php">Voltar</a>
             </div>

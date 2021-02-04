@@ -15,11 +15,11 @@
                
                 while($row = mysqli_fetch_array($result)){
             ?>
-            <div class="bloco">
-                <img class="album" src="..\imagens\<?php echo $row['imagem']?>">
+            <div class="blocoInfo">
+                <img class="imagem" src="..\imagens\<?php echo $row['imagem']?>">
             </div>
 
-            <div class="bloco">
+            <div class="blocoInfo">
                 <p><?php echo $row['nome']?></p>
                 <p><?php echo $row['banda']?></p>
                 <p><?php echo $row['musica']?></p>

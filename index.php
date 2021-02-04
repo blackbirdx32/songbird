@@ -1,6 +1,7 @@
-<html>
+<html lang='pt-br'>
     <head>
         <title>SONGBIRD</title>
+        <meta charset="UTF-8">
         <link rel="stylesheet" type="text/css" href="css\style.css">
     </head>
 
@@ -17,7 +18,7 @@
             <div class="bloco">
                 <form method="POST" action="php\info.php">
                     <input type="hidden" name="id" value="<?php echo $row['id']; ?>"/>	
-                    <button type="submit"><img src="imagens\<?php echo $row['imagem']?>"></button>
+                    <button type="submit"><img class="imagem" src="imagens\<?php echo $row['imagem']?>"></button>
                 </form>
             </div>
             <?php
@@ -27,7 +28,7 @@
             ?>
 
             <div class="bloco">
-                <a href="inserir.html"><img src="imagens\boc.jpg"></a>
+                <a href="inserir.html"><img class="botao" src="imagens\boc.jpg" ></a>
             </div>
         </section>
     </body>

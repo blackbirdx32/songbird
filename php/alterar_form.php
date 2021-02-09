@@ -19,7 +19,7 @@
                 <img class="imagem" src="..\imagens\<?php echo $row['imagem'];?>">
             </div>
 
-            <div class="blocoInfo">
+            <div class="formularioAlt">
                 <form method="POST" action="alterar.php">
                     <input type="hidden" name="id" value="<?php echo $row['id'];?>">
                     <input type="text" name="nome" value="<?php echo $row['nome'];?>"><p>

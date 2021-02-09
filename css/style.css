@@ -56,4 +56,45 @@ section{
     text-align: center;
     border-radius:25px;
     margin:10% 25%;
+   
+    
+}
+
+.formulario form{
+    margin:5%;
+    
+}
+
+.formulario input{
+    border: 1px solid white;
+    padding: 3px 60px 3px 15px;
+    border-radius:5px;
+}
+
+.formularioAlt{
+    width:40%;
+    height: 250px;
+    align-items: center;
+    text-align: center;
+}
+
+.formularioAlt input{
+    border: 1px solid white;
+    padding: 3px 60px 3px 15px;
+    border-radius:5px;
+}
+
+
+@media screen and (max-width: 968px){
+    .bloco{
+        width:30%;
+        margin:4% 1.5% 4% 1.5%;
+    }
+}
+
+@media screen and (max-width: 640px){
+    .bloco{
+        width:70%;
+        margin:3% 15% 25% 15%;
+    }
 }
